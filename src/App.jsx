@@ -5,10 +5,14 @@ import Main from "./components/Main/Main"
 function App() {
   const [username, setUsername] = useState('Ash')
 
+  function logout() {
+    setUsername('')
+  }
+
   return (
     <div>
       <Header username={username} />
-      <Main username={username}/>
+      <Main username={username} logout={logout}/>
     </div>
   )
 }
