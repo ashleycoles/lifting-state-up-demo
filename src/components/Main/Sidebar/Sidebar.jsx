@@ -1,7 +1,7 @@
-function Sidebar() {
+function Sidebar({username}) {
     return (
         <div>
-            This is the sidebar
+            Profile for {username}
         </div>
     )
 }

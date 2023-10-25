@@ -1,9 +1,9 @@
 import Sidebar from "./Sidebar/Sidebar"
 
-function Main() {
+function Main({username}) {
     return (
         <main>
-            <Sidebar />
+            <Sidebar username={username} />
 
             <h1>Main content</h1>
         </main>

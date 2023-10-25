@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Header username={username} />
-      <Main />
+      <Main username={username}/>
     </div>
   )
 }
