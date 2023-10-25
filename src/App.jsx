@@ -1,11 +1,13 @@
+import { useState } from "react"
 import Header from "./components/Header/Header"
 import Main from "./components/Main/Main"
 
 function App() {
+  const [username, setUsername] = useState('Ash')
 
   return (
     <div>
-      <Header />
+      <Header username={username} />
       <Main />
     </div>
   )

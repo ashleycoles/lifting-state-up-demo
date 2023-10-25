@@ -1,7 +1,7 @@
-function Header() {
+function Header({username}) {
     return (
         <header>
-            <p>This is the header</p>
+            <p>Welcome {username}</p>
         </header>
     )
 }
